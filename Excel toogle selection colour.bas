@@ -1,6 +1,7 @@
 Attribute VB_Name = "Module2"
 Sub tempcolour()
 'toggles the backround of a selection's rows so that you can easily visually inspect
+'usage: create a button and asign to this, select cells and hit button to toggle inspection
 Dim addr As String
     addr = Selection.Address
 
